@@ -19,7 +19,7 @@ import java.util.Scanner;
 
 public class PetService {
 
-    private ClientHttp http;
+    private final ClientHttp http;
 
     public PetService(ClientHttp http) {
         this.http = http;
